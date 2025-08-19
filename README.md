@@ -53,3 +53,8 @@ $ pnpm run start:prod
 $ pnpm run test:e2e
 ```
 
+### login credentials
+
+username: admin
+passowrd: admin
+

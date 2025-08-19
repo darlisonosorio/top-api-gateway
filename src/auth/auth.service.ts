@@ -1,7 +1,7 @@
 import { BadRequestException, HttpException, HttpStatus, Injectable, UnauthorizedException } from '@nestjs/common';
-import { Login } from 'src/auth/dtos/login';
-import { UserData, UserDetail } from 'src/auth/dtos/user-detail';
-import { AuthRepository } from 'src/auth/auth.repository';
+import { Login } from './dtos/login';
+import { UserData, UserDetail } from './dtos/user-detail';
+import { AuthRepository } from './auth.repository';
 import { JwtPayload } from './jwt.strategy';
 import {JwtService} from "@nestjs/jwt";
 import { validateOrReject } from 'class-validator';

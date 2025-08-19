@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { UserDetail } from 'src/auth/dtos/user-detail';
+import { UserDetail } from './dtos/user-detail';
 
 
 const admin: UserDetail  = {
